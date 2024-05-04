@@ -453,7 +453,7 @@ SPGMNRs_LEM=function(x,y,k,bw,d,xgrid,init.model){
 }
 
 ##NaiveEM algorithm
-SPGMNRs_NaiveEM=function(x,y,k,bw,d,xgrid,init.model){
+SPGMNRs_Naive_EM=function(x,y,k,bw,d,xgrid,init.model){
   n=length(y)
   ngrid=length(xgrid)
   ##Initial state
