@@ -396,7 +396,7 @@ GMM=function(y,mix.mu,mix.prop,mix.sigma){
 }
                      
 ##Semi-parametric mixtures of non-parametric regressions(Local EM)
-Kernel_Mix_EM_loc=function(x,y,k,bw,d,xgrid,init.model){
+SPGMNRs_LEM=function(x,y,k,bw,d,xgrid,init.model){
   n=length(y)
   ngrid=length(xgrid)
   ##Initial state
@@ -453,7 +453,7 @@ Kernel_Mix_EM_loc=function(x,y,k,bw,d,xgrid,init.model){
 }
 
 ##NaiveEM algorithm
-Kernel_Mix_EM.Naive=function(x,y,k,bw,d,xgrid,init.model){
+SPGMNRs_NaiveEM=function(x,y,k,bw,d,xgrid,init.model){
   n=length(y)
   ngrid=length(xgrid)
   ##Initial state
@@ -519,7 +519,7 @@ Kernel_Mix_EM.Naive=function(x,y,k,bw,d,xgrid,init.model){
 }
 
 ###Model-based ECM (MB-ECM) algorithm
-Kernel_Mix_MB_ECM=function(x,y,k,bw,d,xgrid,init.model,lmd_0=1e-5){
+SPGMNRs_MB_ECM=function(x,y,k,bw,d,xgrid,init.model,lmd_0=1e-5){
   n=length(y)
   ngrid=length(xgrid)
   grid=1:ngrid
@@ -611,7 +611,7 @@ Kernel_Mix_MB_ECM=function(x,y,k,bw,d,xgrid,init.model,lmd_0=1e-5){
 }
 
 ###Model-based EM  (MB-EM) algorithm
-Kernel_Mix_MB_EM=function(x,y,k,bw,d,xgrid,init.model){
+SPGMNRs_MB_EM=function(x,y,k,bw,d,xgrid,init.model){
   n=length(y)
   ngrid=length(xgrid)
   ##Initial state
