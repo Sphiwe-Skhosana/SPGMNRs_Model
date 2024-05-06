@@ -7,7 +7,7 @@ We considered the following choices of the number and/or set of grid points:
   
 We generated $200$ samples of size $n=1000$ from the model 
 
-$f(Y|X=x)=0.65\mathcal{N}\\{Y|1-cos(2\pi x),0.09\\}+0.35\mathcal{N}\\{Y|exp(2x),0.16\\}$
+$f(Y|X=x)=0.65\mathcal{N}\\{Y|1-\text{cos}(2\pi x),0.09\\}+0.35\mathcal{N}\\{Y|\text{exp}(2x),0.16\\}$
 
 The results are virtually the same (see Performance_n=1000.pdf).
  
