@@ -4,5 +4,6 @@ We considered the following choices of the number and/or set of grid points:
 * $N=n$ and set $\mathcal{U}=x$
 * $N=100$ chosen uniformly over the domain of $x$
 * $N=500$ chosen uniformly over the domain of $x$
+  
 Using a sample of size $n=1000$, the results are virtually the same (see Performance_n=1000.pdf).
  
